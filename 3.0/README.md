@@ -1,4 +1,5 @@
 # Nominatim Docker (Nominatim version 3.0)
+# NB Ubuntu 16.04 SA only
 
 1. Modify Dockerfile, set your url for PBF
 

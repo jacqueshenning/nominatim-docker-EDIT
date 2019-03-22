@@ -4,9 +4,7 @@ MAINTAINER dorukozturk <dorukozturk@kitware.com>
 ENV DEBIAN_FRONTEND noninteractive
 ENV LANG C.UTF-8
 
-RUN add-apt-repository "deb http://apt.postgresql.org/pub/repos/apt/ $(lsb_release -sc)-pgdg main" \
-    wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add - \
-    apt-get -y update -qq && \
+RUN apt-get -y update -qq && \
     apt-get -y install locales && \
     locale-gen en_US.UTF-8 && \
     update-locale LANG=en_US.UTF-8 && \

@@ -1,7 +1,7 @@
 <?php
  // Paths
- @define('CONST_Postgresql_Version', '9.5');
- @define('CONST_Postgis_Version', '2.2');
+ @define('CONST_Postgresql_Version', '9.6');
+ @define('CONST_Postgis_Version', '2.5');
  // Website settings
  @define('CONST_Website_BaseURL', '/');
  @define('CONST_Replication_Url', 'http://download.geofabrik.de/africa/south-africa-updates');
